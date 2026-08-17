@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial;
+        }
+
+        form {
+            width: 500px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+<h1 style="color: white; background-color: blue; text-align: center;">
+        Student Registration Form
+    </h1>
+    <form>
+        <label style="color: blue; font-weight: bold;">First Name:</label>
+        <input type="text">
+        <br><br>
+        <label style="color: blue; font-weight: bold;">Last Name:</label>
+        <input type="text">
+        <br><br>
+        <label style="color: blue; font-weight: bold;">Date of Birth:</label>
+        <input type="date">
+        <br><br>
+        <label style="color: blue; font-weight: bold;">Gender:</label>
+        <input type="radio" name="g">Male
+        <input type="radio" name="g">Female
+        <input type="radio" name="g">Other
+        <br><br>
+        <label style="color: blue; font-weight: bold;">Email:</label>
+        <input type="email">
+        <br><br>
+        <label style="color: blue; font-weight: bold;">Mobile:</label>
+        <input type="tel">
+        <br><br>
+        <label style="color: blue; font-weight: bold;">Address:</label>
+        <br>
+        <textarea style="background-color: #f2f2f2;" rows="4" cols="30"></textarea>
+        <br><br>
+        <label style="color: blue; font-weight: bold;">Course:</label>
+        <select style="background-color: #f2f2f2;">
+            <option>BCA</option>
+            <option>B.Sc</option>
+            <option>B.Com</option>
+            <option>B.Tech</option>
+            <option>BA</option>
+        </select>
+        <br><br>
+        <label style="color: blue; font-weight: bold;">Hobbies:</label>
+        <input type="checkbox">Reading
+        <input type="checkbox">Sports
+        <input type="checkbox">Music
+        <input type="checkbox">Dancing
+        <br><br>
+        <label style="color: blue; font-weight: bold;">Upload Photo:</label>
+        <input type="file">
+        <br><br>
+        <label style="color: blue; font-weight: bold;">Password:</label>
+        <input type="password">
+        <br><br>
+        <input type="submit" value="Register"
+               style="background-color: green; color: white;">
+
+        <input type="reset" value="Clear"
+               style="background-color: red; color: white;">
+
+    </form>
+</body>
+</html>
